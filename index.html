@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 12</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="box">
+        <div class="row">
+            <div class="col-sm col-md col-lg col-xl">
+                <h2 style="text-align: center;padding: 25px;">Event 1</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm col-md col-lg col-xl">
+                <h5 style="text-align: center;">Number of Available Seats: 23</h5>
+            </div>
+        </div>
+        <div class="box-1">
+        <div class="row">
+            <div class="col3-sm col3-md col3-lg col3-xl">
+<div class=box-2>
+    <div class="img1">
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJQAAACUCAMAAABC4vDmAAAAbFBMVEX///8AAADs7Oz8/Pzz8/Pp6en5+fne3t7w8PDZ2dnDw8PW1tZiYmKfn5/R0dEpKSmqqqpvb2+Dg4MxMTGYmJhqamp9fX1TU1NNTU10dHSwsLAXFxc4ODhbW1s9PT2Li4sODg5FRUW6urofHx8B6VLMAAAEu0lEQVR4nO2c22KbMAxAUQj3YG7hDiHA///jYGnaZNlSy5ZdP+w8puAKI2RJlmVZsjhRGOfZnKxrMbdTGkYH6SEliaZTAX9wKc/OjwnksnwTocimLvLvvzksnU4rQH+OfkIku6sB1nP0Oimux6pN2lOoW6RDvL2myfv3BSxfIelcfRJZVlfAsPjvr3HiHmZ9s8UKqBeeC9MBxjezSUkLK+978Se4xmql+U2YQI5QFafUMFkpAEPdYC9wVatZbomaphveCJMKYT5wRhDRELuC6kguzAdegnx1n3QwfmNARIn6i/DaEcKoZD304CIxbgSzAu8huNZSz8qSmlwqZ71IakUAI/FSeJhnaZ1g0NoUsnxSAoFZDuEsP8gXuagteKaDlGKYGwt0NAPlFBN+IyBbJuw6oTLtzYXss3EgpxloAkJjHAKXe/gdTGgR/ifVSmBD3aKUH+QBu2jlB4npPpgbobx5CaiswRdVIfsFtgWJII84siaU0ZjyZ2KQ0nV7JNDKF/xBylgt1Fp+HzaQuPuSkQnyRFKJ3xuqmah9YGGtskeJB3rLsRHWKqZqojbPahUduhxJBXlCdEE9qrBRd2IQu29qlMXaexQplPXwL0ozS9lJ5K4QFE7U9hVdRVRdpZrvCC3LYi+dn3OPv2dJFG8bRAJWvVRlze+4NTpwcxKSqOMdEzrhEQoaNwQBehXLZyWCPIEOAenjhVdapNE5qFz37ixIFUlnRdncR7BK1dKGxX/n2KBWV+TlorSoEMBT53M+kqKcI6beSu3gnj1OlAnyBOobP6le+D7oMe5Lr8F07mQYTVftS91JEWriXTWVOmCW/XDQVBfCEHFA3GiqcvAS/lcyCYU/Avgzv/eiZeXbcWvuLSS7JNoW+J4Tt59+bAg3m95TcqcvD4XyoOFOxW09nUSD23njfOL9zh09jstOWvMaKo9y2+o9Hfd2eSCXfMewFLz/KgANUcONkDtjEajNTD1ipFDsv1CcYF6fkYpuoEkw0ngaucwYuSAb6boY6eQZ6Q4bGTiYGWLpC0ZX/mDUyLDdyASHkakga9VkqPjNlKUvvXjFPLyRiVhNKWvcPoim5H6MSu4buQ1iVTpWP3/GfeRGbq0ZuQmpZbs2w9aIGLmxraUEAFvDaGSxhPqykiPCFb5jZAGOkaVKVlmTy/GEUFGXkeVvqgsFxVZXE0sqLd/E4lOlqi587sXIgmYjS7+NLJK3rIsirziRSYApOnjRCRnOT8aM9pjnb/xB7rygosM8klFJSx/ASx972nxW8gSM/AExI4/SWe5Am5V1KQ4dUh/PbBOS2Jv4ICuRl90MZBlsj+rIr5mHo408Rr6rlXkH7s1sTbA3cZCWiryJg+Wsg+QWfETe7mL7BHvzGoPsJkZmbyuCRkkWNVjNazYj2ZZHWbTtnMQaGLUCvZj4cTOB/kheTWyfXsA3xepUN8XaCAvUZG1vXEuvtQp6RKO1XsvW02YHB96WdIW2lnTWXosFRfeNgXbiq87mfdatzeEwvdkxYFUPxaK1zeHO3hDyembOy8rvemG1/Ul/Q8gdm00AkJRT99Wq0mFpfuq3X+MfaZ15Izj/pcloFv9481MnCtO8bYokGZp26sJAXqJfmHQ1+J3EzgIAAAAASUVORK5CYII=" alt="">
+
+</div>
+</div>
+            </div>
+            <div class="col-sm col-md col-lg col-xl">
+                <div class="row">
+                    <div class="col-2">
+                        <div class="aa"><h6>Name:</h6>
+                </div> 
+            </div>
+                <div class="col-9 col-9-sm col-9-md col-9-lg col-9-xl"><div class="aa-a">  
+                </div>
+            </div>                
+                </div>
+                <div class="row">
+                    <div class="col-2">
+                        <div class="aa"><h6>Email:</h6>
+                </div> 
+            </div>
+                <div class="col-9 col-9-sm col-9-md col-9-lg col-9-xl"><div class="aa-a">  
+                </div>
+            </div>                
+                </div>
+                <div class="row">
+                    <div class="col-2">
+                        <div class="aa"><h6>Phone no:</h6>
+                </div> 
+            </div>
+                <div class="col-9 col-9-sm col-9-md col-9-lg col-9-xl"><div class="aa-a">  
+                </div>
+            </div>                
+                </div>
+                <div class="row">
+                    <div class="col-2">
+                        <div class="aa"><h6>No of seats:</h6>
+                </div> 
+            </div>
+                <div class="col-9 col-9-sm col-9-md col-9-lg col-9-xl"><div class="aa-a">  
+                </div>
+            </div>                
+                </div>
+                <div class="row">
+                    <div class="col-2">
+                        <div class="aa"><h6>No of attendee:</h6>
+                </div> 
+            </div>
+                <div class="col-9 col-9-sm col-9-md col-9-lg col-9-xl"><div class="aa-a">  
+                </div>
+            </div>                
+                </div>
+                <div class="row">
+                    <div class="col">
+                         <h6 class="bb">
+Submit
+                    </h6>
+                    </div>
+                    <div class="col">
+                         <h6 class="bb">
+Cancel
+                    </h6>
+                    </div>
+                   
+                </div>
+               
+                
+            </div>
+            
+        </div>
+        
+        </div>
+        
+    </div>
+</body>
+</html>
